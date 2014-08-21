@@ -28,3 +28,11 @@ ClassLoader::addClasses(array
 	// Library
 	'ComoloIsotope\Model\Payment\SepaDirectDeposit' => 'system/modules/isotope_sepa/library/Isotope/Model/Payment/SepaDirectDeposit.php',
 ));
+
+/**
+ * Register the templates
+ */
+TemplateLoader::addFiles(array
+(
+    'iso_be_payment_sepa' => 'system/modules/isotope_sepa/templates',
+));
