@@ -18,7 +18,7 @@
     "extra":{
         "contao":{
             "sources":{
-                "":"system/modules/isotope-sepa"
+                "":"system/modules/isotope-sepa_direct_debit"
             }
         }
     }
