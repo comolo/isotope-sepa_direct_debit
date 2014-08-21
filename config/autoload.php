@@ -8,6 +8,7 @@
  * @package Isotope_sepa
  * @link    https://contao.org
  * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
+ * @copyright Hendrik Obermayer, Comolo GmbH
  */
 
 
@@ -26,7 +27,7 @@ ClassLoader::addNamespaces(array
 ClassLoader::addClasses(array
 (
 	// Library
-	'ComoloIsotope\Model\Payment\SepaDirectDeposit' => 'system/modules/isotope_sepa/library/Isotope/Model/Payment/SepaDirectDeposit.php',
+	'ComoloIsotope\Model\Payment\SepaDirectDeposit' => 'system/modules/isotope-sepa_direct_debit/library/Isotope/Model/Payment/SepaDirectDeposit.php',
 ));
 
 /**
@@ -34,5 +35,5 @@ ClassLoader::addClasses(array
  */
 TemplateLoader::addFiles(array
 (
-    'iso_be_payment_sepa' => 'system/modules/isotope_sepa/templates',
+    'iso_be_payment_sepa' => 'system/modules/isotope-sepa_direct_debit/templates',
 ));
