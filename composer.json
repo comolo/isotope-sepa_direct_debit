@@ -1,0 +1,14 @@
+{
+    "name": "comolo/isotope-sepa_direct_debit",
+    "description": "Isotope payment extension: SEPA direct debit",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Hendrik Obermayer, Comolo GmbH",
+            "email": "mail@comolo.de"
+        }
+    ],
+    "require": {
+        "isotope/isotope-core": ">=2.0.0,<3.0"
+    }
+}
